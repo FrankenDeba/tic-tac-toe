@@ -1,0 +1,37 @@
+#box{
+    display: flex;
+    height: 80vh;
+    color: whitesmoke;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(45deg,#0ABDE3,#218F76);
+    align-items: center;
+}
+#row1>div,#row2>div,#row3>div{
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#row1,#row2{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid white;
+}
+#r0c0,#r0c1,#r1c0,#r1c1,#r2c0,#r2c1{
+    border-right: 3px solid white;
+}
+#row3{
+    display: flex;
+    flex-direction: row;
+    
+}
+#result{
+    padding: 5vh;
+    margin: 5vh;
+    background: white;
+    color: darkslategray;
+    box-shadow: 0px 20px 20px darkgray;
+}
